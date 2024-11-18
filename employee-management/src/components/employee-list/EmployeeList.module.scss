@@ -1,0 +1,14 @@
+.employeeListGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 52px;
+  
+    @media (min-width: 600px) {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  
+    @media (min-width: 960px) {
+      grid-template-columns: repeat(3, 1fr); 
+    }
+  }
+  

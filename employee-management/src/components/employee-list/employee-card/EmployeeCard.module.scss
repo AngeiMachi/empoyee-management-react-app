@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  max-width: 300px;
+  min-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: auto;
+
+  &.focused,
+  &:hover {
+    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.4); // Blue glow effect
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .name {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+  }
+}
+
+
+
+

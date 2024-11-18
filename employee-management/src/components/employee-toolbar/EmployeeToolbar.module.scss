@@ -1,0 +1,20 @@
+.toolbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 96%;
+  margin-bottom: 24px; 
+}
+
+.button {
+  flex-shrink: 0;
+}
+
+.searchField {
+  flex-grow: 1;
+}
+
+.filterSelect {
+  width: 200px;
+}
